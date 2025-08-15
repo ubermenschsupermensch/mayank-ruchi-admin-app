@@ -1,0 +1,275 @@
+{
+  "beam_journal": {
+    "label_column": "row_id",
+    "row_count": 50,
+    "columns": [
+      "row_id",
+      "date",
+      "from",
+      "to",
+      "amount"
+    ]
+  },
+  "bill_book": {
+    "label_column": "name",
+    "row_count": 114,
+    "columns": [
+      "row_id",
+      "name",
+      "bill_number",
+      "date",
+      "bill_amount",
+      "terms",
+      "contract_no",
+      "quality",
+      "amount_jodi_mtr",
+      "taga"
+    ]
+  },
+  "brokers": {
+    "label_column": "row_id",
+    "row_count": 14,
+    "columns": [
+      "row_id",
+      "brokers"
+    ]
+  },
+  "contract_book": {
+    "label_column": "party_name",
+    "row_count": 81,
+    "columns": [
+      "row_id",
+      "contract_no",
+      "party_name",
+      "date",
+      "quality",
+      "amount",
+      "rate",
+      "terms",
+      "delivery_period",
+      "delivery_total",
+      "additional_notes",
+      "balance_delivery",
+      "new_column",
+      "new_column_a",
+      "broker"
+    ]
+  },
+  "costing": {
+    "label_column": "quality",
+    "row_count": 14,
+    "columns": [
+      "row_id",
+      "quality",
+      "date",
+      "length",
+      "length_war",
+      "reed",
+      "pick",
+      "reed_space_warp",
+      "reed_space_weft",
+      "warp_count",
+      "weft_count",
+      "job_rate",
+      "warp_rate",
+      "weft_rate",
+      "sizing_rate",
+      "mercerise_rate",
+      "other_charges",
+      "weft_gram",
+      "weft_cost",
+      "job_cost",
+      "mercerize_cost",
+      "other_costs",
+      "total_cost",
+      "lasa",
+      "warp_gram",
+      "warp_cost",
+      "sizing_cost"
+    ]
+  },
+  "greige_stock": {
+    "label_column": "name",
+    "row_count": 28,
+    "columns": [
+      "row_id",
+      "name",
+      "quantity_taga",
+      "quantity_mtr_jod",
+      "outward_qty_mtr",
+      "outward_qty_taga",
+      "final_taga_stock",
+      "final_stock_mtr_jod"
+    ]
+  },
+  "parity_for_pc_d": {
+    "label_column": "row_id",
+    "row_count": 2,
+    "columns": [
+      "row_id",
+      "length",
+      "fani",
+      "pick",
+      "panna",
+      "second",
+      "parity",
+      "fani_diff",
+      "pick_diff",
+      "fani_rate",
+      "pick_rate_12_first",
+      "final_pick_for_c_first_12",
+      "remaing_picks",
+      "remaing_pick",
+      "final_pick_for_c",
+      "pick_cost",
+      "panna_diff",
+      "panna_rate",
+      "length_diff",
+      "final_rate"
+    ]
+  },
+  "parity": {
+    "label_column": "fani",
+    "row_count": 2,
+    "columns": [
+      "fani",
+      "pick",
+      "panna",
+      "second",
+      "length",
+      "parity",
+      "fani_diff",
+      "pick_diff",
+      "fani_rate",
+      "pick_less_than_12",
+      "remaining_pick",
+      "remaining_pick",
+      "pick_cost",
+      "panna_diff",
+      "panna_cost",
+      "final_cost"
+    ]
+  },
+  "purchase_party": {
+    "label_column": "name",
+    "row_count": 95,
+    "columns": [
+      "row_id",
+      "name"
+    ]
+  },
+  "sizing": {
+    "label_column": "name",
+    "row_count": 7,
+    "columns": [
+      "row_id",
+      "name"
+    ]
+  },
+  "terms": {
+    "label_column": "row_id",
+    "row_count": 6,
+    "columns": [
+      "row_id",
+      "terms"
+    ]
+  },
+  "weaver_inward": {
+    "label_column": "quality",
+    "row_count": 129,
+    "columns": [
+      "row_id",
+      "date",
+      "quality",
+      "taga",
+      "jodi_mtr",
+      "weaver",
+      "set_no"
+    ]
+  },
+  "weaver_set": {
+    "label_column": "quality",
+    "row_count": 2,
+    "columns": [
+      "row_id",
+      "set_no",
+      "quality",
+      "sizing",
+      "cuts_weaver_1",
+      "weaver",
+      "total_inward_cuts",
+      "total_inward_cuts_copy",
+      "total_cut_by_4",
+      "remaining_cuts",
+      "new_column_b",
+      "new_column_b_copy"
+    ]
+  },
+  "weaver_sizing_1": {
+    "label_column": "weaver_name",
+    "row_count": 24,
+    "columns": [
+      "row_id",
+      "weaver_name",
+      "total_from",
+      "total_to",
+      "final_stock",
+      "total_looms"
+    ]
+  },
+  "yarn_inward": {
+    "label_column": "name",
+    "row_count": 16,
+    "columns": [
+      "row_id",
+      "name",
+      "date",
+      "type",
+      "bags_boxes",
+      "weight_net",
+      "inward_from"
+    ]
+  },
+  "yarn_name": {
+    "label_column": "name",
+    "row_count": 9,
+    "columns": [
+      "row_id",
+      "name"
+    ]
+  },
+  "yarn_outward": {
+    "label_column": "name",
+    "row_count": 10,
+    "columns": [
+      "row_id",
+      "given_to",
+      "name",
+      "date",
+      "type",
+      "bags_boxes",
+      "weight_net"
+    ]
+  },
+  "yarn_party": {
+    "label_column": "row_id",
+    "row_count": 1,
+    "columns": [
+      "row_id"
+    ]
+  },
+  "yarn_stock": {
+    "label_column": "name",
+    "row_count": 9,
+    "columns": [
+      "row_id",
+      "name",
+      "inward_total_bags",
+      "inward_total_kgs",
+      "outward_total_bags",
+      "outward_total_kgs",
+      "final_total_bags",
+      "final_total_kgs"
+    ]
+  }
+}

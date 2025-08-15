@@ -1,0 +1,274 @@
+{
+  "beam_journal": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "date": "text",
+      "from": "text",
+      "to": "text",
+      "amount": "text"
+    }
+  },
+  "bill_book": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "name": "text",
+      "bill_number": "text",
+      "date": "text",
+      "bill_amount": "text",
+      "terms": "text",
+      "contract_no": "text",
+      "quality": "text",
+      "amount_jodi_mtr": "text",
+      "taga": "text"
+    }
+  },
+  "brokers": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "brokers": "text"
+    }
+  },
+  "contract_book": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "contract_no": "text",
+      "party_name": "text",
+      "date": "text",
+      "quality": "text",
+      "amount": "text",
+      "rate": "text",
+      "terms": "text",
+      "delivery_period": "text",
+      "delivery_total": "text",
+      "additional_notes": "text",
+      "balance_delivery": "text",
+      "new_column": "text",
+      "new_column_a": "text",
+      "broker": "text"
+    }
+  },
+  "costing": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "quality": "text",
+      "date": "text",
+      "length": "text",
+      "length_war": "text",
+      "reed": "text",
+      "pick": "text",
+      "reed_space_warp": "text",
+      "reed_space_weft": "text",
+      "warp_count": "text",
+      "weft_count": "text",
+      "job_rate": "text",
+      "warp_rate": "text",
+      "weft_rate": "text",
+      "sizing_rate": "text",
+      "mercerise_rate": "text",
+      "other_charges": "text",
+      "weft_gram": "text",
+      "weft_cost": "text",
+      "job_cost": "text",
+      "mercerize_cost": "text",
+      "other_costs": "text",
+      "total_cost": "text",
+      "lasa": "text",
+      "warp_gram": "text",
+      "warp_cost": "text",
+      "sizing_cost": "text"
+    }
+  },
+  "greige_stock": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "name": "text",
+      "quantity_taga": "text",
+      "quantity_mtr_jod": "text",
+      "outward_qty_mtr": "text",
+      "outward_qty_taga": "text",
+      "final_taga_stock": "text",
+      "final_stock_mtr_jod": "text"
+    }
+  },
+  "parity_for_pc_d": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "length": "text",
+      "fani": "text",
+      "pick": "text",
+      "panna": "text",
+      "second": "text",
+      "parity": "text",
+      "fani_diff": "text",
+      "pick_diff": "text",
+      "fani_rate": "text",
+      "pick_rate_12_first": "text",
+      "final_pick_for_c_first_12": "text",
+      "remaing_picks": "text",
+      "remaing_pick": "text",
+      "final_pick_for_c": "text",
+      "pick_cost": "text",
+      "panna_diff": "text",
+      "panna_rate": "text",
+      "length_diff": "text",
+      "final_rate": "text"
+    }
+  },
+  "parity": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "fani": "text",
+      "pick": "text",
+      "panna": "text",
+      "second": "text",
+      "length": "text",
+      "parity": "text",
+      "fani_diff": "text",
+      "pick_diff": "text",
+      "fani_rate": "text",
+      "pick_less_than_12": "text",
+      "remaining_pick": "text",
+      "pick_cost": "text",
+      "panna_diff": "text",
+      "panna_cost": "text",
+      "final_cost": "text"
+    }
+  },
+  "purchase_party": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "name": "text"
+    }
+  },
+  "sizing": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "name": "text"
+    }
+  },
+  "terms": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "terms": "text"
+    }
+  },
+  "weaver_inward": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "date": "text",
+      "quality": "text",
+      "taga": "text",
+      "jodi_mtr": "text",
+      "weaver": "text",
+      "set_no": "text"
+    }
+  },
+  "weaver_set": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "set_no": "text",
+      "quality": "text",
+      "sizing": "text",
+      "cuts_weaver_1": "text",
+      "weaver": "text",
+      "total_inward_cuts": "text",
+      "total_inward_cuts_copy": "text",
+      "total_cut_by_4": "text",
+      "remaining_cuts": "text",
+      "new_column_b": "text",
+      "new_column_b_copy": "text"
+    }
+  },
+  "weaver_sizing_1": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "weaver_name": "text",
+      "total_from": "text",
+      "total_to": "text",
+      "final_stock": "text",
+      "total_looms": "text"
+    }
+  },
+  "yarn_inward": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "name": "text",
+      "date": "text",
+      "type": "text",
+      "bags_boxes": "text",
+      "weight_net": "text",
+      "inward_from": "text"
+    }
+  },
+  "yarn_name": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "name": "text"
+    }
+  },
+  "yarn_outward": {
+    "primary_key": "id",
+    "date_column": "date",
+    "columns": {
+      "row_id": "text",
+      "given_to": "text",
+      "name": "text",
+      "date": "text",
+      "type": "text",
+      "bags_boxes": "text",
+      "weight_net": "text"
+    }
+  },
+  "yarn_party": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text"
+    }
+  },
+  "yarn_stock": {
+    "primary_key": "id",
+    "date_column": null,
+    "columns": {
+      "row_id": "text",
+      "name": "text",
+      "inward_total_bags": "text",
+      "inward_total_kgs": "text",
+      "outward_total_bags": "text",
+      "outward_total_kgs": "text",
+      "final_total_bags": "text",
+      "final_total_kgs": "text"
+    }
+  }
+}
